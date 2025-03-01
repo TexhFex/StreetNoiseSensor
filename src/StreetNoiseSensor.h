@@ -47,6 +47,7 @@ private:
     // Für den ISR-Zugriff
     static StreetNoiseSensor* _instance;
     static void TC4_Handler_Wrapper();
+    friend void TC4_Handler();
 };
 
 #endif
