@@ -1,0 +1,4 @@
+StreetNoiseSensor    KEYWORD1
+startMeasurement     KEYWORD2
+stopMeasurement      KEYWORD2
+getRMS               KEYWORD2
